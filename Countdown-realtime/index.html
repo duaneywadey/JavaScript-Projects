@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Countdown</title>
+	<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+	<div class="container">
+		<h2 class="title"> Countdown</h2>
+		<div class="timeclass">
+		<div class="time">
+			<h2 id="days">00</h2>
+			<small>Days</small>
+		</div>
+		<div class="time">
+			<h2 id="hours">00</h2>
+			<small>Hours</small>
+		</div>
+		<div class="time">
+			<h2 id="minutes">00</h2>
+			<small>Minutes</small>
+		</div>
+		<div class="time">
+			<h2 id="seconds">00</h2>
+			<small>Seconds</small>
+		</div>		
+	</div>
+	<p id="alertText"></p>
+	<div class="customizeDate">
+		<div class="selectMonth">
+		  <select id="months">
+		    <option value="January">January</option>
+		    <option value="February">February</option>
+		    <option value="March">March</option>
+		    <option value="April">April</option>
+		    <option value="May">May</option>
+		    <option value="June">June</option>
+		    <option value="July">July</option>
+		    <option value="August">August</option>
+		    <option value="September">September</option>
+		    <option value="October">October</option>
+		    <option value="November">November</option>
+		    <option value="December">December</option>
+		  </select>
+		</div>
+		<div class="selectDay">
+			<input type="text" id="whatDate" style="width: 20px; height: auto;">
+		</div>
+		<div class="selectYear">
+		  <select id="years">
+		    <option value=2021>2021</option>
+		    <option value=2022>2022</option>
+		    <option value=2023>2023</option>
+		    <option value=2024>2024</option>
+		    <option value=2025>2025</option>
+		    <option value=2026>2026</option>
+		    <option value=2027>2027</option>
+		    <option value=2028>2028</option>
+		    <option value=2029>2029</option>
+		    <option value=2030>2030</option>
+		    <option value=2031>2031</option>
+		  </select>
+		</div>
+		<div class="buttonSubmit">
+			<button id="forDate" onclick="setDate()"> Submit </button>
+		</div>
+
+		</div>
+	</div>
+
+
+<script src="app.js"></script>
+</body>
+</html>

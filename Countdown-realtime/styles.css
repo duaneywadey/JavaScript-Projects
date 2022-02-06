@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+:
+
+root {
+  --background-gradient: linear-gradient(30deg, #f39c12 30%, #f1c40f);
+  --gray: #34495e;
+  --darkgray: #2c3e50;
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+body {
+ 	background-image: url('https://source.unsplash.com/1600x900/?landscape');
+}
+
+
+
+.container {
+  background: #000;
+  color: white;
+  border-radius: 30px;
+  width: 100%;
+  height: auto;
+  max-width: 750px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);  
+  padding: 100px 100px;
+  background-color: rgba(0,0,0,0.8);
+  font-family: inherit;
+}
+
+.container .title {
+  font-size: 3.2em;
+  text-align: center;
+  margin: 0 auto;
+}
+ .timeclass {
+  display: flex;
+  justify-content: center;
+  font-size: 2.2em;
+ }
+
+ .timeclass > div {
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+ }
+
+ .timeclass h2 {
+  font-weight: bolder;
+  font-size: 3.1em;
+  margin: 0 0 5px;
+ }
+
+ .customizeDate {
+  display: flex;
+  justify-content:center; 
+  margin: 0 auto;
+ }
+
+ .customizeDate > div {
+  margin: 10px;
+  padding: 10px;
+ }
+
+ select, input, button{
+  padding: 8px 12px;
+  color: #fff;
+  background-color: #23272A;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: inherit;
+
+ }
+
+ #alertText {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1em;
+  
+ }
+
+
+
+
+
+

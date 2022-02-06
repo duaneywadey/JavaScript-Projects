@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Open+Sans&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans";
+
+}
+
+body {
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #A5FFD6;
+
+}
+
+.container {
+	width: 800px;
+	background-color: #FFC0CB;
+	height: 50vh;
+	border-radius: 50px;
+	text-align: center;
+
+}
+
+h1 {
+	color: #364547;
+	margin-bottom: 0.5em;
+}
+
+.box  {
+	width: 100%;
+	height: auto;
+	display: flex;
+
+
+}
+
+.box div{
+	width: 100%;
+}
+
+select {
+	width: 95%;
+	height: 40px;
+	font-size: 1em;
+	cursor: pointer;
+	outline: none;
+	background: #7868e6;
+	color: white;
+	margin: 0.2em 1;
+	border-radius: 10px;
+	border: none;
+	margin-left: 8px;
+}
+
+input {
+	width: 95%;
+	height: 40px;
+	font-size: 1em;
+	margin: 0.2em 0;
+	border-radius: 10px;
+	border: none;
+	background: #edeef7;
+	outline: none;
+	padding: 0 1em;
+	margin-left: 8px;
+}
+
+ .btn{
+	height: 50px;
+	background: #7868e6;
+	color: white;
+	border-radius: 50px;
+	border: solid;
+	cursor: pointer;
+	font-size: 1em;
+    width: 25%;
+	margin-top: 5%; 
+    position:relative;
+
+
+}
+
